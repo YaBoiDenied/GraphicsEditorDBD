@@ -1,0 +1,66 @@
+
+Graphics Editor Guide and Information
+12/08/2021(Australian Dates) Yaboidenied#8889
+
+The purpose of the tool is to allow for better graphics and settings access, compared to what 
+Dead by Daylight currently allows in game. For my sanity, this is at your own risk, if you are banned,
+it is your own fault. (However, apart from cheats which are NOT included in this tool, you shouldn’t be 
+banned for using this). For your sake, please do not use this tool, AT ALL, when Dead by Daylight is open. 
+Hovering over most parts of the tool will display some text to help you out.
+
+SETUP:
+C:\Users\YOURPCUSERNAME\AppData\Local\DeadByDaylight\Saved\Config\WindowsNoEditor
+This may vary, but try this first, click Submit Directory once it is in the box, 
+if the two large box fields labelled “Current Game Settings” & “Current Engine Settings” are not filled
+ with information, it is the wrong directory. From here, everything should work. If you have trouble 
+using this, consult WindowsNoEditor Manual Set.
+
+Additional Info:
+The file that determines the theme is kept in your Program Data file, as Mode.txt. 
+“Purple” is Lilac Theme, “Light” is Light Theme, and no text/empty file is the normal theme. 
+
+WindowsNoEditor Manual Set:
+Go into your program data, a file there should be “WindowsNoEditorDirectory.txt’, 
+if not, create it and paste your WindowsNoEditorDirectory there.
+
+VSync:
+Ticking the box will turn VSync on, ticking it off will turn VSync off. You can 
+check whether it is on or off based of the “bUseVSync=” value, this can be 
+either true or false. 
+
+
+Anti-Aliasing:
+	Clicking “Anti-Aliasing On”, turns it on, and clicking “Anti-Aliasing Off”, 
+turn it off. 
+You can check if Anti-Aliasing is On or Off at the bottom of your Engine file display, 
+if it is on, there will be nothing, if it is turned off you will see “[/Script/Engine.GarbageCollectionSettings] r.DefaultFeature.AntiAliasing=0”.
+
+FPS Caps:
+WARNING: Going over 60FPS can cause minor characters movement stuttering, this can make 
+moonwalking harder, but most would agree that if you have a higher refresh rate monitor it is worth it.
+“No FPS Cap” This will allow Dead by Daylight to run at whatever framerate your computer 
+can produce, it is normally set to 60FPS.
+“144FPS Cap” This will cap Dead by Daylights framerate to 144, which is one of the typical high refresh rate monitor values. 
+“120FPS Cap” This will cap Dead by Daylights framerate to 120, which is one of the typical high refresh rate monitor values.
+“60FPS Cap (Default)” This is the default FPS cap that Dead by Daylight uses.
+
+ Read-only:
+“Read-only Off” Will allow Dead by Daylight to edit your settings, this should be used to, for example, 
+change your audio levels in-game and then change settings using this tool. 
+“Read-only On” This is done automatically each time you make a change with this tool but is also used to
+ just simply make it so Dead by Daylight cannot change your settings.
+
+Normal Editor/Ultra-Graphics Editor:
+Normal Editor: This tool will always launch showing the “Normal Editor”, this lets you edit the graphics 
+values (the sliders) within the bounds that Dead by Daylight allows.
+Ultra-Graphics Editor: Clicking this will replace the sliders with new ones that allow you to enter values 
+over what Dead by Daylight allows. Typically used for high end pcs or cinematics. (High performance cost)
+Sliders:
+All of the sliders should be self-explanatory, if not, a quick google search can explain what each do. The
+ only notable mention is using Animation Quality at 0, the tool has a build in warning when doing this, but
+ it does genuinely cause issues. Please do not do this, its only being left in for educational purposes.
+Final Notes:
+There are several issues with this program, which I hope are fixed/improved by the community. These vary 
+from .0000 issue with the framerate, which causes issues when entirely uncapped, another way to set values 
+rather than searching for 1-5 then changing. I hope that this is used in an educational and personal way and
+ does not sell this or redistribute this as their own (without credit etc). 
